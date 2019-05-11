@@ -271,7 +271,7 @@
                     xlist))))
 
 (defun combine-all (xlist ylist)
-  (cross-product xlist ylist))
+  (cross-product #'list xlist ylist))
 
 (cross-product #'* '(1 2 3 4) '(10 20 30 40))
 (cross-product #'+ '(1 2 3 4) '(10 20 30 40))
