@@ -279,4 +279,17 @@
 
 
 
+;; the second, more flexible design
+;; tries to stick longer with the language of the problem
+;; and thus - is more flexible. It tries to be structured in a more general way.
+;; Parts of it can be easier reused - because it is problem/principle centered.
+;; The first approach tries to find most direct mapping of the problem
+;; to the language. (very technical thinking - and less princip-driven.
+;; 
+;; The second approach tries to be more data-driven.
+;; The functions are in constant dialog with the data it treats.
+;; One could say 'data-aware' way of programming.
+;; And the data is optimally structured when giving input.
+
+
 
